@@ -63,8 +63,8 @@ public class ActiveBrush : MonoBehaviour
 			// If the desired brush hasn't already been added then add it
 			if(GetComponent<CompoundBrush>() == null)
 			{
-				gameObject.AddComponent<StairBrush>();
-				gameObject.GetComponent<StairBrush>().Material = cachedMaterial;
+				gameObject.AddComponent<MonkeyHoleBrush>();
+				gameObject.GetComponent<MonkeyHoleBrush>().Material = cachedMaterial;
 			}
 		}
 	}
